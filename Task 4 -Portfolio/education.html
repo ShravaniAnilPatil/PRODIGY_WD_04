@@ -1,0 +1,155 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <link rel="stylesheet" href="styles/education.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="./images/sp.png" alt="Logo" class="small-logo">
+                <div class="name">Shravani Patil</div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me </a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+               
+    
+
+    <section id="education" class="education">
+        <h2 class="myedu">My Education</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="images/nhps.jpg" alt="New Horizon Public School">
+                <div class="step-content">
+                    <h3>New Horizon Public School, Panvel</h3>
+                    <p>2007-2020</p>
+                    <p>My educational journey began with a curiosity-driven 
+                        adventure through school, where each day brought new
+                         discoveries and friendships. From unraveling the
+                          mysteries of mathematics to exploring the wonders
+                           of literature, every 
+                        lesson was a stepping stone in my quest for knowledge.</p>
+                </div>
+            </div>
+            <div class="step">
+                <img src="images/bvpjc.jpeg" alt="Bhartiya Vidyapeeth Prashala and Junior College">
+                <div class="step-content">
+                    <h3>Bhartiya Vidyapeeth Prashala and Junior College, Belapur</h3>
+                    <p>2020-2022</p>
+                    <p>Navigating junior college during COVID-19 was a journey
+                         defined by adapting to online 
+                         learning. While offline connections were limited,
+                          virtual classrooms  became vital, 
+                          fostering resilient bonds and teaching valuable lessons 
+                          in adaptability and perseverance. It was a time that 
+                          highlighted the importance of staying connected despite 
+                          physical distance,
+                         and learning to thrive in challenging circumstances.</p>
+                </div>
+            </div>
+            <div class="step">
+                <img src="images/vesit.png" alt="Vivekananda Education Society's Institute of Technology">
+                <div class="step-content">
+                    <h3>Vivekananda Education Society's Institute of Technology, Chembur</h3>
+                    <p>2022-2026</p>
+                    <p>B.E - Information Technology</p>
+                    <p>Navigating university post-COVID presents a unique 
+                        opportunity to immerse myself fully in academic 
+                        pursuits, unencumbered by previous disruptions. 
+                        It's a time of renewed focus on my educational journey,
+                         where every lecture, project, and interaction shapes 
+                         my path forward with optimism and determination.
+
+
+
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section id="experience" class="experience">
+            <h2 class="myexp">My Experience</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="images/quest.png" alt="Company Name">
+                    <div class="step-content">
+                        <h3>Junior Public Relations Officer at  @ QuestIT Cell </h3>
+                        <p>August 2023-March 2024</p>
+                        <p>  As a Junior Public Relations Officer at QuestIT Cell, coordinated with the team, and assisted in event planning for QuestIT Cell through effective communication strategies.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img src="images/csi.png" alt="Company Name">
+                    <div class="step-content">
+                        <h3>Operations officer at 
+                           @
+                            CSI VESIT</h3>
+                        <p>October 2023-March 2024</p>
+                        <p>As an Operations Officer at CSI VESIT College Council, Supported event planning and ensured smooth operations within the college community</p>
+                    </div>
+                </div>
+                
+                <!-- Add more steps for each experience -->
+                <div class="step">
+                    <img src="images/veslang.png" alt="Company Name">
+                    <div class="step-content">
+                        <h3>Junior Council Member  at @ VESLang Circle</h3>
+                        <p>August 2023-March 2024</p>
+                        <p>As a Junior Council Member at VESLang Circle, contributing to organizational initiatives and fostering community engagement through language and cultural activities.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    
+    
+    <script>
+        document.querySelectorAll('.accordion-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+    const steps = document.querySelectorAll('.step');
+
+    steps.forEach(step => {
+        step.addEventListener('click', function() {
+            // Remove active class from all steps
+            steps.forEach(s => s.classList.remove('active'));
+            // Add active class to the clicked step
+            step.classList.add('active');
+        });
+    });
+});
+
+    </script>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
